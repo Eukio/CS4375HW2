@@ -126,7 +126,7 @@ def compute_loss(output, pred_box, gt_box, gt_mask, num_boxes, num_classes, grid
 
 
     # the total loss
-    loss = loss_x + loss_y + loss_w + loss_h + loss_obj + loss_noobj #+ loss_cls
+    loss = loss_x + loss_y + loss_w + loss_h + loss_obj + loss_noobj + loss_cls
     return loss
 
 
